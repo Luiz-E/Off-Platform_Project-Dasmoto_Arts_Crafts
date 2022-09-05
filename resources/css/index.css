@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+header,
+main {
+    margin: 40px 5px;
+}
+
+h3,
+p {
+    margin: 20px auto;
+}
+
+header {
+    background-image: url("../img/pattern.jpeg");
+}
+
+header h1 {
+    text-align: center;
+    color: khaki;
+    font-size: 100px;
+}
+
+main section {
+    margin-top: 30px;
+}
+
+main section h2 {
+    font-size: 32px;
+    color: white;
+}
+
+main section:first-child h2 {
+    background-color: mediumspringgreen;
+}
+
+main section:nth-child(2) h2 {
+    background-color: lightcoral;
+}
+
+main section:nth-child(3) h2 {
+    background-color: skyblue;
+}
+
+main section img {
+    margin-top: 20px;
+}
+
+main section p strong {
+    color: blue;
+}
